@@ -1,0 +1,67 @@
+@import './comStyle.less';
+
+.am-list-view-scrollview{
+    .am-list-header{
+        background:#fff;
+        border-left: 4px solid green;
+        border-bottom: 2px solid #ccc; 
+        color: #000;
+        font-weight: 600;       
+        .header{
+            height: 100%;
+            font-size: 20px;
+        }
+    }
+    .list-box{
+        .left-box{
+            flex: 1;
+            padding: 10px;
+            img{
+                width: 100%;
+            }
+        }
+        .right-box{
+            flex: 2;
+            position: relative;
+            .title{
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .address,.areasize{
+                font-size: 14px;
+                color: #999;
+            }
+            .price{
+                position: absolute;
+                top:30px;
+                right: 20px;
+                color: red;
+            }
+            .tags{
+                span{
+                    display: inline-block;
+                    padding:5px 10px;
+                    margin-right: 5px;
+                    font-size: 12px;
+                }
+                .green{
+                    border-radius: 8px;                    
+                    color: #6DCD7C;
+                    background: #EDFBEE;
+                }
+                .orange{
+                    border-radius: 8px;                    
+                    color: #FFB347;
+                    background: #FFF3E6;
+                }
+                .blue{
+                    border-radius: 8px;                    
+                    color: #89C4EC;
+                    background: #ECF5FF;
+                }
+                
+            }
+        }
+    }
+
+}
